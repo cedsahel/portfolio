@@ -1,0 +1,32 @@
+.about{
+    background-color: #ac00fc;
+    height: 100vh;
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+}
+
+#cercle {
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    background: #FFF;
+}
+
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .about{
+        height: 100%;
+        color:#FFF;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about p {
+        width: 600px;
+        padding: 0;
+    }
+}

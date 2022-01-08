@@ -1,0 +1,32 @@
+.skills {
+    background-color: #067BC2;
+    height: 100vh;
+    flex-direction: column;
+    /* flex-direction: column; */
+    /* position: relative; */
+
+
+}
+.exp{
+    margin-top: 20px;
+}
+.skill{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    margin: 30px;
+
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    color: #FFF;
+}
+
