@@ -17,16 +17,18 @@ import emailjs from 'emailjs-com';
 
   return (
     <>
+    <div style={{ }}>
     <h1>Contactez moi</h1>
-    <form style={{marginLeft:"300px",display:"flex",flexDirection:"column",paddingRight:"200px",alignContent:"center"}} ref={form} onSubmit={sendEmail}>
+    <form style={{marginLeft:"300px",display:"flex",flexDirection:"column",paddingRight:"200px",alignItems:"center"}} ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input style={{height:"30px"}} type="text" name="user_name" />
+      <input style={{height:"30px",width:"500px"}} type="text" name="user_name" />
       <label>Email</label>
-      <input style={{height:"30px"}} type="email" name="user_email" />
+      <input style={{height:"30px",width:"500px"}} type="email" name="user_email" />
       <label>Message</label>
-      <textarea style={{height:"200px"}} name="message" />
-      <input style={{marginTop:"10px"}}  type="submit" value="Send" />
+      <textarea style={{height:"200px",width:"500px"}} name="message" />
+      <input style={{marginTop:"10px",width:"300px",height:"50px"}}  type="submit" value="Send" />
     </form>
+    </div>
     </>
   );
 };
